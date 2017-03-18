@@ -20,3 +20,5 @@ HEADERS  += dilemmamh_qt.h\
         dmh.h
 
 FORMS    += dilemmamh_qt.ui
+
+QMAKE_CXXFLAGS += -std=c++11

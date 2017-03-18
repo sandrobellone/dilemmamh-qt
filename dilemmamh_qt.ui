@@ -17,17 +17,17 @@
    <widget class="QLabel" name="label">
     <property name="geometry">
      <rect>
-      <x>50</x>
+      <x>90</x>
       <y>30</y>
       <width>271</width>
       <height>17</height>
      </rect>
     </property>
     <property name="text">
-     <string>Simulazione del dilemma di Monty Hall</string>
+     <string>&lt;html&gt;&lt;head/&gt;&lt;body&gt;&lt;p&gt;&lt;span style=&quot; font-size:10pt; font-weight:600;&quot;&gt;Simulazione del dilemma di Monty Hall&lt;/span&gt;&lt;/p&gt;&lt;/body&gt;&lt;/html&gt;</string>
     </property>
    </widget>
-   <widget class="QRadioButton" name="radioButton_4">
+   <widget class="QRadioButton" name="rb_a">
     <property name="geometry">
      <rect>
       <x>50</x>
@@ -40,7 +40,7 @@
      <string>in modo a&amp;lternato</string>
     </property>
    </widget>
-   <widget class="QRadioButton" name="radioButton_2">
+   <widget class="QRadioButton" name="rb_s">
     <property name="geometry">
      <rect>
       <x>50</x>
@@ -92,7 +92,7 @@
      <string>1000</string>
     </property>
    </widget>
-   <widget class="QRadioButton" name="radioButton_3">
+   <widget class="QRadioButton" name="rb_m">
     <property name="geometry">
      <rect>
       <x>50</x>
@@ -105,7 +105,7 @@
      <string>&amp;mai</string>
     </property>
    </widget>
-   <widget class="QRadioButton" name="radioButton">
+   <widget class="QRadioButton" name="rb_r">
     <property name="geometry">
      <rect>
       <x>50</x>
@@ -186,7 +186,7 @@
      <string>Numero iterazioni:</string>
     </property>
    </widget>
-   <widget class="QLineEdit" name="lineEdit">
+   <widget class="QLineEdit" name="le_numite_fatte">
     <property name="enabled">
      <bool>false</bool>
     </property>
@@ -202,7 +202,7 @@
      <string>0</string>
     </property>
    </widget>
-   <widget class="QLineEdit" name="lineEdit_2">
+   <widget class="QLineEdit" name="le_nsu">
     <property name="enabled">
      <bool>false</bool>
     </property>
@@ -231,7 +231,7 @@
      <string>Numero successi:</string>
     </property>
    </widget>
-   <widget class="QLineEdit" name="lineEdit_3">
+   <widget class="QLineEdit" name="le_nsc">
     <property name="enabled">
      <bool>false</bool>
     </property>
@@ -260,7 +260,7 @@
      <string>Numero scambi:</string>
     </property>
    </widget>
-   <widget class="QLineEdit" name="lineEdit_4">
+   <widget class="QLineEdit" name="le_nsusc">
     <property name="enabled">
      <bool>false</bool>
     </property>

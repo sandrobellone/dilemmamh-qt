@@ -2,6 +2,7 @@
 #define DILEMMAMH_QT_H
 
 #include <QMainWindow>
+#include "dmh.h"
 
 namespace Ui {
 class Dilemmamh_qt;
@@ -18,8 +19,15 @@ public:
 private slots:
     void on_pb_reset_clicked();
 
+    void on_pb_esci_clicked();
+
+    void on_pb_info_clicked();
+
+    void on_pb_elabora_clicked();
+
 private:
     Ui::Dilemmamh_qt *ui;
+    dmh *dmhObj;
 };
 
 #endif // DILEMMAMH_QT_H
